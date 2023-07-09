@@ -2,6 +2,15 @@ html {
   font-size: 15px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -92,7 +101,7 @@ body {
     bottom: -7px;
     left: 0;
     z-index: 1;
-    transition: width .2s linear;
+    transition: width 0.2s linear;
   }
 
   &:hover {
@@ -102,4 +111,66 @@ body {
   }
 }
 
-/*  Main* /
+/*  Main*/
+
+.intro {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding-bottom: 70px;
+}
+
+.section_logo {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.intro_content {
+  width: 60%;
+}
+
+.intro_photo {
+  width: 60%;
+}
+
+.intro_subtitle {
+  font-size: 32px;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.intro_title {
+  font-size: 64px;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 700;
+}
+
+.intro_social {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.social_link {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.social_link img {
+  height: 50px;
+  width: 50px;
+  transition: transform 0.2s linear;
+  &:hover {
+    transform: translateY(-15px);
+  }
+}
+
+.photo {
+  margin: 0 auto;
+  border-radius: 150px;
+}
