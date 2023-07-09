@@ -1,0 +1,325 @@
+html {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  font-size: 15px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  padding: 20px;
+}
+
+.header_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.rsschool {
+  display: flex;
+  align-items: center;
+}
+
+.rsschool_logo {
+  width: 50px;
+  height: 50px;
+}
+
+.rsschool_logo img {
+  width: 50px;
+  height: 50px;
+  padding: 5px 5px;
+}
+
+.nav_rs {
+  font-size: 17px;
+  padding: 5px 15px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid transparent;
+  display: flex;
+  border-radius: 24px;
+  height: 100%;
+
+  &:hover {
+    border-color: black;
+  }
+}
+
+.nav_link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav_link_l {
+  margin-left: 10px;
+  position: relative;
+  font-size: 15px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    z-index: 1;
+    transition: width 0.2s linear;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+/*  Main*/
+
+.intro {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding-bottom: 70px;
+}
+
+.section_logo {
+  padding-top: 50px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.intro_content {
+  width: 60%;
+}
+
+.intro_photo {
+  width: 60%;
+}
+
+.intro_subtitle {
+  font-size: 32px;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.intro_title {
+  font-size: 64px;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 700;
+}
+
+.intro_social {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.social_link {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.social_link img {
+  height: 50px;
+  width: 50px;
+  transition: transform 0.2s linear;
+
+  &:hover {
+    transform: translateY(-15px);
+  }
+}
+
+.photo {
+  margin: 0 auto;
+  border-radius: 150px;
+}
+
+/* About me */
+
+.section_about_me {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Work expirience */
+
+.section_work_exp {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Education */
+
+.section_education {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Soft skills */
+
+.section_skills {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list_item img {
+  height: 50px;
+  width: 50px;
+}
+
+.skils {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 700;
+}
+
+.soft_skills {
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
+  justify-content: left;
+  text-align: center;
+}
+
+/* Languages */
+
+.section_foreign_languages {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Code examp */
+
+.section_code {
+  padding-top: 50px;
+  color: black;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.code_examp {
+  color: rgb(37, 156, 101);
+}
+
+/* footer*/
+.footer {
+  padding: 15px;
+  background-color: rgb(68, 68, 68);
+}
+
+.footer_logo {
+  display: flex;
+  justify-content: left;
+  align-items: normal;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer_logo img {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.footer_container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.copyright {
+  padding-top: 50px;
+  font-weight: 300;
+  color: white;
+  width: 100%;
+  height: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+}
+
+.span {
+  height: 20px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
