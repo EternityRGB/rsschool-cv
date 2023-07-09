@@ -174,3 +174,100 @@ body {
   margin: 0 auto;
   border-radius: 150px;
 }
+
+/* About me */
+
+.section_about_me {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Work expirience */
+
+.section_work_exp {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Education */
+
+.section_education {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Soft skills */
+
+.section_skills {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list_item img {
+  height: 50px;
+  width: 50px;
+}
+
+.skils {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 700;
+}
+
+.soft_skills {
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
+  justify-content: left;
+  text-align: center;
+}
+
+/* Languages */
+
+.section_foreign_languages {
+  padding-top: 50px;
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Code examp */
+
+.section_code {
+  padding-top: 50px;
+  color: black;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.code_examp {
+  color: rgb(37, 156, 101);
+}
